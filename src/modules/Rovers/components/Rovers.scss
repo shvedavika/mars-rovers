@@ -1,0 +1,11 @@
+@import "./../../../Global";
+
+.rovers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include sm {
+    flex-direction: column;
+  }
+}

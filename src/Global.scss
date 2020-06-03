@@ -1,0 +1,12 @@
+$sm: 700px;
+$dangerColor: red;
+
+@mixin sm() {
+  @media screen and (max-width : $sm) {
+    @content;
+  }
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
